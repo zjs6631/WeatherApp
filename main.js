@@ -4,7 +4,9 @@ const weatherKey = "6054226a008faa1b35f3fa02e4ec577a";
 //button for initiating search
 const searchButton = document.getElementById('searchButton');
 
-
+getData(weatherKey, "Wilmington").then(res=>{
+    updateDOM(res);
+});
 
 searchButton.addEventListener('click', ()=>{
     //city being searched for using API

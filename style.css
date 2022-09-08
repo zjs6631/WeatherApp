@@ -35,6 +35,19 @@ body{
     padding-left: 50px;
 }
 
+#titleHeader{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#titleIcon{
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    
+}
+
 #citySearch{
     
     background: rgba(180, 180, 180, .5);
@@ -46,6 +59,10 @@ body{
     align-self: center;
     font-size: 20px;
     
+}
+
+#citySearch:focus{
+    outline:none;
 }
 
 #searchButton{
@@ -74,6 +91,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    border-radius: 5px;
 }
 
 #localeInfo{
@@ -86,8 +104,33 @@ body{
     border-color: #fafafa;
     
     padding-left: 20px;
+    line-height: 0;
     
     
+}
+
+#cityDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+#cityIcon{
+    width: 25px;
+    height: 25px;
+    align-self: center;
+}
+#tempDiv{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#tempIcon{
+    width: 30px;
+    height: 30px;
+    align-self: center;
 }
 
 #temp{
@@ -105,6 +148,43 @@ body{
     grid-row-start: 2;
     grid-row-end: 3;
     font-size: 15px;
+}
+
+#feelsDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+#feelsIcon{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+#windDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#windIcon{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+#humidDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+
+#humidIcon{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+
 }
 
 #place{

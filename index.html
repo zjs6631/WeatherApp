@@ -10,21 +10,41 @@
 </head>
 <body>
     <div id="header">
+        <div id="titleHeader">
         <p id="appTitle">The Weather App</p>
+        <img id='titleIcon' src="./images/weather-lightning.png">
+        </div>
         <input type="text" id="citySearch" name="city" value="">
         <button id="searchButton"><img id="searchIcon" src="./images/magnify.png"></button>
     </div>
     <div id="container">
         <div id="today">
             <div id="localeInfo">
-                <p id="place">City</p>
+                <div id="cityDiv">
+                    <p id="place">City</p>
+                    <img id="cityIcon" src="./images/city.png">
+                </div>
+                
                 <p id="conditions">Cloudy</p>
+                
             </div>
-            <p id="temp">88.8</p>
+            <div id="tempDiv">
+                <p id="temp">88.8</p>
+                <img id='tempIcon' src="./images/thermometer-low.png">
+            </div>
             <div id="subInfo">
-                <p id="feelsLike">888.8</p>
-                <p id="wind">88.8</p>
-                <p id="humidity">88.8%</p>
+                <div id="feelsDiv">
+                    <p id="feelsLike">888.8</p>
+                    <img id='feelsIcon' src="./images/thermometer-low.png">
+                </div>
+                <div id="windDiv">
+                    <p id="wind">88.8</p>
+                    <img id='windIcon' src="./images/wind-power-outline.png">
+                </div>
+                <div id="humidDiv">
+                    <p id="humidity">88.8%</p>
+                    <img id="humidIcon" src="./images/water-thermometer-outline.png">
+                </div>
             </div>
         </div>
         <div id="week">
