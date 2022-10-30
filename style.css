@@ -22,7 +22,10 @@ body{
 }
 
 #container{
-    background-color: #262626;
+    background-image:url("./images/DarkClouds.jfif");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-row-start: 2;
     grid-row-end: 3;
     display: grid;
@@ -55,7 +58,7 @@ body{
     border-style: none;
     border-radius: 5px;
     grid-column-start: 2;
-    height: 40%;
+    height: 20%;
     align-self: center;
     font-size: 20px;
     
@@ -82,7 +85,7 @@ body{
 
 #today{
     background-color: #525252;
-    width: 50%;
+    width: fit-content;
     max-width: 350px;
     height: auto;
     align-self: center;
