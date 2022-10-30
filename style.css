@@ -128,6 +128,7 @@ body{
     display: flex;
     flex-direction: row;
     text-align: center;
+    align-items: center;
 }
 
 #tempIcon{
@@ -151,6 +152,8 @@ body{
     grid-row-start: 2;
     grid-row-end: 3;
     font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #feelsDiv{
